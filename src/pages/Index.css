@@ -1,0 +1,52 @@
+body{
+   background-image: url('https://wallpaper.dog/large/20355980.jpg');
+   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.content-container {
+    font-family:'Comfortaa', cursive;
+    width: 50vw;
+    height: 35vw;
+    margin: 50px auto;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px #ddd,
+              -1px -1px 10px #ddd,
+              1px -1px 10px #ddd,
+              -1px 1px 10px #ddd;   
+}
+
+.carForm {
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+    .car-info {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 20px 0; 
+    }
+
+    label {
+        display: block;
+    }
+    
+    input {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid var(black);
+        border-radius: 5px;
+    } 
+
+.logo img{
+    height: 400px;
+}
