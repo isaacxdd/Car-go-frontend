@@ -36,9 +36,8 @@ function Index (props){
         </div>   
         </div>  
 
-    {cars.map((car) => <Post key={car.id} post={car}/>)}
+    {cars.map((car) => <Post key={car.id} post={car}/>)}        
     </>
-
 }
 
 export default Index;
