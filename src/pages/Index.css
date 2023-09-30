@@ -1,9 +1,11 @@
 body{
-   background-image: url('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
+   /* background-image: url('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
    background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 100vh; */
+  outline-color: yellow;
+  background-color: bisque;
 }
 
 .content-container {
@@ -47,6 +49,20 @@ body{
         border-radius: 5px;
     } 
 
+.logo{
+    padding-top: 40px;
+}
+
+.logo h1 {
+    padding-bottom: 20px;
+    background-color:skyblue;
+    color: black;
+}
+
 .logo img{
     height: 400px;
+}
+
+.car-poster-show{
+    height: 300px;
 }

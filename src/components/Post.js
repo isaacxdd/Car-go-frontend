@@ -10,16 +10,14 @@ function Post ({post}){
         width: "80%"
     }
 
-
     return <div style={got}>
         <Link to={`/post/${post.id}`}>
             <h1>{post.brands}</h1>
             <h2>{post.model}</h2>
             <h3>{post.year}</h3>
             <h4>{post.price}</h4>
-            <img src={post.poster}/>
+            <img src={post.poster} alt ={post.brands}/>
         </Link>
-            <Link to="/">Back to Index</Link>
     </div>
 }
 
