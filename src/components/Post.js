@@ -7,7 +7,7 @@ function Post ({post}){
         textAlign: 'center',
         border: `3px solid`,
         margin: "10px auto",
-        width: "80%"
+        width: "80%",
     }
 
     return <div style={got}>
@@ -16,7 +16,7 @@ function Post ({post}){
             <h2>{post.model}</h2>
             <h3>{post.year}</h3>
             <h4>{post.price}</h4>
-            <img src={post.poster} alt ={post.brands}/>
+            <img src={post.poster} alt={post.brands}/>
         </Link>
     </div>
 }

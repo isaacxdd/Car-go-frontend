@@ -1,11 +1,13 @@
 body{
-   /* background-image: url('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
-   background-repeat: no-repeat;
+   background-image: url('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
+   background-repeat: repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh; */
-  outline-color: yellow;
-  background-color: bisque;
+  height: 100vh; 
+  
+  /* outline-color: yellow; */
+  /* background-color: bisque; */
+
 }
 
 .content-container {
@@ -63,6 +65,14 @@ body{
     height: 400px;
 }
 
-.car-poster-show{
-    height: 300px;
+.bijay h1, .bijay h2, .bijay h3, .bijay h4 {
+    color: black;
+    background-color: rgba(128, 128, 128,0.9);
+    width: 40%;
+   margin-left: 400px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bijay img {
+    height: 500px;
 }

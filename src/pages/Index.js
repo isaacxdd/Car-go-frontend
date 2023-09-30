@@ -11,7 +11,7 @@ function Index (props){
     return <>
     <div className='logo'>
       <h1>Welcome to Car-go</h1> 
-        <img src='https://i.pinimg.com/originals/92/46/80/92468054e8e6c0f6abf02d4d35c14a3c.jpg'></img>
+        <img src='https://i.pinimg.com/originals/92/46/80/92468054e8e6c0f6abf02d4d35c14a3c.jpg' alt="main"/>
     </div>
     <div className="content-container">
         <div className="carForm">
@@ -35,8 +35,9 @@ function Index (props){
           </div>
         </div>   
         </div>  
-
-    {cars.map((car) => <Post key={car.id} post={car}/>)}        
+ <div className='bijay'>
+    {cars.map((car) => <Post key={car.id} post={car}/>)} 
+    </div>       
     </>
 }
 
