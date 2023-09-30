@@ -4,12 +4,12 @@ import './Show.css';
 function Show(props) {
   const post = useLoaderData();
 
-  const div = {
-    textAlign: "center",
-    border: "3px solid green",
-    width: "80%",
-    margin: "30px auto",
-  };
+//   const div = {
+//     textAlign: "center",
+//     border: "3px solid green",
+//     width: "80%",
+//     margin: "30px auto",
+//   };
 
   return (
 <div className="car-show">
